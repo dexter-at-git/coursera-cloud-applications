@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/CloudApp-MP5-Giraph"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value=""/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-vif&#13;&#10;org.apache.giraph.io.formats.IntIntNullTextInputFormat -vip input/tiny2_graph.txt&#13;&#10;-vof&#13;&#10;org.apache.giraph.io.formats.IdWithValueTextOutputFormat -op  output/connected-components&#13;&#10;-w 1 -ca&#13;&#10;giraph.SplitMasterWorker=false"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="CloudApp-MP5-Giraph"/>
+</launchConfiguration>
